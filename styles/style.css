@@ -1,0 +1,245 @@
+html, body {
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    /*overflow-x: hidden;*/
+
+}
+
+
+.header {
+    display: block;
+    width: 100%;
+}
+
+
+
+.header-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+}
+
+
+.head-top__logo {
+    margin-left: 80px;
+}
+
+
+
+.header-top__buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+
+.bt {
+    border: 3px solid #386FA4;
+    border-radius: 7px;
+    padding: 13px;
+}
+
+.bt-1 {
+    background-color: #849324;
+    color: white;
+}
+
+.bt-2 {
+    background-color: #FFB30F;
+    color: white;
+}
+
+.header-bottom {
+    display: flex;
+    width: 100%;
+    background-color: #2E86AB;
+ 
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 150px;
+    margin-left: 230px;
+
+}
+
+.nav-menu ul li a {
+    color: white;
+}
+
+.nav-menu ul li a:hover {
+    color: #01295F;
+    text-decoration: underline;
+}
+
+.nav-menu ul li {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.main {
+    width: 100%;
+    position: relative;
+}
+
+.container-1 {
+    background-image: url('../images/charity_image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    width: 100%;
+    height: 800px;
+    
+}
+
+
+.element-1 {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 80px;
+    width: 450px;
+    height: 400px;
+    background-color: rgb(255, 255, 255, 0.8);
+    color: black;     ;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+#p-element-1 {
+}
+
+
+.bt-3 {
+    text-align: center;
+    background-color: #745C97;
+}
+
+.bt-3 a {
+    color: #FFFFFF;
+}
+
+.container-2 {
+    display: flex;
+    background-color: #B3C5D7;
+}
+
+.element-2 {
+    margin-left: 80px;
+    margin-right: 80px;
+    line-height: 35px;
+}
+
+#ul-element-2 {
+    list-style-type: circle;
+    line-height: normal;
+}
+
+.container-3 {
+    display: flex;
+    background-color: FFFFFF;
+}
+
+.container-4 {
+    display: flex;
+    background-color: #B3C5D7;
+}
+
+.top-space {
+    margin-top: 35px;
+}
+
+.footer {
+    background-color: #2E86AB;
+    height: 150px;
+}
+
+.footer-inner {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+    gap: 500px;
+}
+
+.f-1 {
+    font-weight: 800;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-set {
+    margin: 5% 30%;
+}
+
+legend {
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.f-img {
+    margin-bottom: 30px;
+    margin-left: 25%;
+}
+
+#user, #email, #password {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+}
+
+.bt-f {
+    display: flex;
+    justify-content: center;
+}
+
+.sign {
+    margin-bottom: 20px;
+}
+
+#bt-ff {
+    background-color: #2E86AB;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.d-links {
+    margin-left: 80px;
+}
+
+.exec-head {
+    text-align: center;
+}
+
+.exec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+figcaption {
+    font-weight: bolder;
+    text-align: center;
+}
